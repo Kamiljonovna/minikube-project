@@ -29,6 +29,7 @@ kubectl create deployment <name> --image=<image>
 kubectl expose deployment <name> --type=NodePort --port=80
 minikube service <service-name>
 minikube dashboard
+minikube dashboard --url <to get the link for your dashboard>
 kubectl apply -f <manifest.yaml>
 kubectl delete -f <manifest.yaml>
 kubectl logs <pod-name>
